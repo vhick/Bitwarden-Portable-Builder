@@ -1,0 +1,13 @@
+# NEVER commit actual vault data, login sessions, cache or sensitive account state.
+Data/
+**/Data/
+**/bitwarden-appdata/
+**/BitwardenPortable/Data/
+
+# GitHub Actions output is disposable and should not be pushed.
+artifacts/
+stage/
+cache/
+*.exe
+__pycache__/
+*.pyc
